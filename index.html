@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+</head>
+<body>
+    
+    <link rel="stylesheet" href="style.css">
+    <!-- <script type = "text/javascript" src="javascript.js"></script> -->
+     <script>document.querySelector('.search-bar button').addEventListener('click', function() {
+        const query = document.querySelector('.search-bar input').value;
+        window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+    });
+    </script>
+<header>
+    <div class="logo">
+        <img src="./E-commerce_LOGO.jpg " height="50px" alt="Logo"><img>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for products...">
+        <button>Search</button>
+    </div>
+    <nav class="navigation-menu">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="user-cart">
+        <a href="login.html">Login</a>
+        <a href="cart.html">Cart (0)</a>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="./shoes.jpg" alt="Hero Banner">
+    <div class="hero-content">
+        <h1>Big Sale!</h1>
+        <p>Up to 50% off on selected items</p>
+        <button>Shop Now</button>
+    </div>
+</section>
+<br/>
+<section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+        <div class="category">
+            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Ft-shirt&psig=AOvVaw1VGZKvMPPAmDkO8Rqd3fh_&ust=1724244499230000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiV9LnNg4gDFQAAAAAdAAAAABAE≈"><img src="t-Shirt.jpg"height=200px alt="T-Shirt"></a>
+            <p>T-shirt</p>
+        </div>
+        <div class="category">
+            <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwii5dKtzoOIAxVAgUsFHTxNCFYYABAbGgJzZg&ae=2&co=1&gclid=CjwKCAjw_ZC2BhAQEiwAXSgClnXxvEdk5WGRwYQ7KRNAVHCjr8vaqWDiGxw_NwxbK7FLLlAYmM3P3RoCtbQQAvD_BwE&ohost=www.google.com&cid=CAESVeD2u2XqBPm_-MRLEZsyCdwzXd_yYp1xOQRZ2h0EujHIRPzo1mbaIPqWXsAhuaPYSNjFamcvxAv8KO27jmD8TcEbjMxts3dk0G4C0UyJglZR8gIACoQ&sig=AOD64_1Zs23k1VOEuLreuf5XqmGM_jmDpw&ctype=5&q=&ved=2ahUKEwjG68utzoOIAxX8RmwGHamzIqQQ9aACKAB6BAgGEA8&adurl="><img src="jeans.jpg"height=300px width=200 alt="jeans"></a>
+            <p>Jeans</p>
+        </div>
+        <!-- Add more categories as needed -->
+    </div>
+</section>
+
+<section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="./perfume.jpeg" width="200" alt="perfume">
+            <p>perfume</p>
+            <p>$49.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="./headphone.jpeg" width="200" alt="Product 2">
+            <p>Product 2</p>
+            <p>$39.99</p>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Add more products as needed -->
+    </div>
+</section>
+
+<section class="promotions">
+    <div class="promo-banner">
+        <img src="bottle.jpg" width="200" alt="Promo 1">
+        <p>Special Offer!</p>
+    </div>
+    <!-- Add more banners if needed -->
+</section>
+
+<section class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Sign up for our newsletter to receive updates and exclusive offers.</p>
+    <form>
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+    </form>
+</section>
+
+
+<footer>
+    <div class="footer-info">
+        <p>© 2024 Your Company Name. All rights reserved.</p>
+        <p><a href="about.html">About Us</a> | <a href="contact.html">Contact</a></p>
+    </div>
+    <div class="social-media">
+        <a href="https://www.instagram.com/maazraeen510/">Instagram</a>
+        <a href="https://x.com/MaazRaeen42044">Twitter</a>
+    </div>
+    <div class="payment-methods">
+        <img src="visa.png" alt="Visa">
+        <img src="mastercard.png" alt="Mastercard">
+        <!-- Add more payment methods as needed -->
+    </div>
+</footer>
+
+
+</body>
+</html>
